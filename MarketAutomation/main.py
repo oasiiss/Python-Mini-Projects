@@ -1,14 +1,7 @@
 from PyQt5.QtWidgets import *
-from PyQt5.QtGui import QPixmap
-from PyQt5.QtCore import QUrl
-from PyQt5.QtWebEngineWidgets import QWebEngineSettings, QWebEngineView
 from market_python import Ui_MainWindow
-import sys, time, sqlite3, datetime, json, os
-from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.pdfbase import pdfmetrics
-from reportlab.lib import colors
+import sys, sqlite3, datetime
+
 
 
 class Otomasyon(QMainWindow):
